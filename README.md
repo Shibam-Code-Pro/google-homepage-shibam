@@ -2,6 +2,12 @@
 
 A beginner-friendly recreation of Google's homepage using HTML, CSS, JavaScript, and Bootstrap.
 
+
+## 🚀 Live Demo
+
+[View Live Google Homepage](https://Shibam-Code-Pro.github.io/google-homepage-shibam)
+
+
 ## 📁 Project Structure
 
 ```
@@ -110,3 +116,16 @@ This project is perfect for:
 ---
 
 **Note**: This is a clone for educational purposes only. Google and the Google logo are trademarks of Google Inc.
+
+
+---
+
+## 📞 Contact
+
+- **Email**: Connect-With-Shibam@outlook.com
+- **LinkedIn**: [linkedin.com/in/shibam-webdev](https://linkedin.com/in/shibam-webdev)
+- **GitHub**: [github.com/Shibam-Code-Pro](https://github.com/Shibam-Code-Pro)
+
+---
+
+⭐ If you found this project helpful, please give it a star on GitHub!
