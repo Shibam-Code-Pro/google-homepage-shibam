@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic HTML setup -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    
+    <!-- Link to Bootstrap for easy styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to our custom CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top navigation bar with Gmail, Images, Apps menu and Sign in button -->
+    <header class="header">
+        <nav class="d-flex justify-content-between align-items-center p-3">
+            <div></div>
+            <div class="nav-links">
+                <a href="#" class="nav-link me-3">Gmail</a>
+                <a href="#" class="nav-link me-3">Images</a>
+                <!-- Apps menu button with 9 dots -->
+                <button class="apps-btn me-3">
+                    <div class="apps-grid">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </button>
+                <button class="btn btn-primary sign-in-btn">Sign in</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content area with Google logo and search box -->
+    <main class="main-content">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <!-- Google Logo with colored letters -->
+                    <div class="logo-container text-center mb-4">
+                        <div class="google-logo">
+                            <span class="logo-g blue">G</span>
+                            <span class="logo-o red">o</span>
+                            <span class="logo-o yellow">o</span>
+                            <span class="logo-g blue">g</span>
+                            <span class="logo-l green">l</span>
+                            <span class="logo-e red">e</span>
+                        </div>
+                    </div>
+
+                    <!-- Search box with icons -->
+                    <div class="search-container">
+                        <div class="search-box-wrapper">
+                            <!-- Search icon -->
+                            <div class="search-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                                </svg>
+                            </div>
+                            <!-- Main search input -->
+                            <input type="text" class="search-input" id="searchInput">
+                            <!-- Voice search icon -->
+                            <div class="voice-search">
+                                <svg class="voice-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path fill="#4285f4" d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"></path>
+                                    <path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path>
+                                    <path fill="#fbbc04" d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path>
+                                    <path fill="#ea4335" d="m16.95 16.87-1.15-1.18v-0.32c0.91-0.96 1.47-1.93 1.47-3.38h2c0 2.04-0.78 3.54-2.05 4.87z"></path>
+                                </svg>
+                            </div>
+                            <!-- Camera search icon -->
+                            <div class="camera-search">
+                                <svg class="camera-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+                                    <g>
+                                        <circle fill="#34a853" cx="144.07" cy="144" r="16"></circle>
+                                        <circle fill="#4285f4" cx="96.07" cy="104" r="24"></circle>
+                                        <path fill="#ea4335" d="M24,135.2c0,18.11,14.69,32.8,32.8,32.8H96v-16l-40.1-0.1c-8.8,0-15.9-8.19-15.9-17.9v-18H24 V135.2z"></path>
+                                        <path fill="#fbbc04" d="M168,72.8c0-18.11-14.69-32.8-32.8-32.8H116v16l19.9,0.1c8.8,0,16,8.29,16,18v18h16V72.8z"></path>
+                                        <path fill="#4285f4" d="M112,24v32.8c0,8.8-8.19,16-17.9,16H76v16h18.1c18.11,0,32.8-14.69,32.8-32.8V24H112z"></path>
+                                        <path fill="#34a853" d="M64,168v-32.8c0-8.8,8.29-16,18-16h18v-16H82.1c-18.11,0-32.8,14.69-32.8,32.8V168H64z"></path>
+                                    </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Search buttons -->
+                    <div class="button-container text-center mt-4">
+                        <button type="button" class="btn search-btn me-3" id="googleSearchBtn">Google Search</button>
+                        <button type="button" class="btn search-btn" id="feelingLuckyBtn">I'm Feeling Lucky</button>
+                    </div>
+
+                    <!-- Language options -->
+                    <div class="language-container text-center mt-4">
+                        <p class="language-text">
+                            Google offered in: 
+                            <a href="#" class="language-link">हिन्दी</a>
+                            <a href="#" class="language-link">বাংলা</a>
+                            <a href="#" class="language-link">తెలుగు</a>
+                            <a href="#" class="language-link">मराठी</a>
+                            <a href="#" class="language-link">தமிழ்</a>
+                            <a href="#" class="language-link">ગુજરાતી</a>
+                            <a href="#" class="language-link">ಕನ್ನಡ</a>
+                            <a href="#" class="language-link">മലയാളം</a>
+                            <a href="#" class="language-link">ਪੰਜਾਬੀ</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer with links -->
+    <footer class="footer">
+        <div class="footer-country">
+            <p class="mb-0 px-4 py-3">India</p>
+        </div>
+        <hr class="footer-divider">
+        <div class="footer-links">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="footer-left d-flex flex-wrap">
+                            <a href="#" class="footer-link">About</a>
+                            <a href="#" class="footer-link">Advertising</a>
+                            <a href="#" class="footer-link">Business</a>
+                            <a href="#" class="footer-link">How Search works</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-right d-flex flex-wrap justify-content-md-end">
+                            <a href="#" class="footer-link">Privacy</a>
+                            <a href="#" class="footer-link">Terms</a>
+                            <a href="#" class="footer-link">Settings</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Our custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

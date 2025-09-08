@@ -1,0 +1,397 @@
+/* Google Homepage Clone - Custom Styles */
+
+/* Reset all margins and padding for clean start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main body styling */
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #3c4043;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Top navigation bar styling */
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Navigation links container */
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+/* Gmail and Images links */
+.nav-link {
+    color: #3c4043;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 8px;
+}
+
+.nav-link:hover {
+    color: #3c4043;
+    text-decoration: underline;
+}
+
+/* Apps menu button (9 dots) */
+.apps-btn {
+    background: none;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apps-btn:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+}
+
+/* Grid of 9 dots for apps menu */
+.apps-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Individual dots */
+.dot {
+    width: 4px;
+    height: 4px;
+    background-color: #5f6368;
+    border-radius: 50%;
+}
+
+/* Sign in button */
+.sign-in-btn {
+    background-color: #1a73e8;
+    border: 1px solid #1a73e8;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 9px 23px;
+    border-radius: 4px;
+}
+
+.sign-in-btn:hover {
+    background-color: #1557b0;
+    box-shadow: 0 1px 2px 0 rgba(66, 133, 244, 0.3);
+}
+
+/* Main content area - centers everything */
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 160px);
+    padding-top: 60px;
+}
+
+/* Google logo container */
+.logo-container {
+    margin-bottom: 35px;
+}
+
+/* Google logo text styling */
+.google-logo {
+    font-size: 90px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    font-family: arial, sans-serif;
+}
+
+/* Google logo colors for each letter */
+.logo-g.blue { color: #4285f4; }
+.logo-o.red { color: #ea4335; }
+.logo-o.yellow { color: #fbbc04; }
+.logo-l.green { color: #34a853; }
+.logo-e.red { color: #ea4335; }
+
+/* Search box container */
+.search-container {
+    width: 100%;
+    max-width: 584px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Main search box styling */
+.search-box-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 584px;
+    margin: 0 auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    height: 44px;
+    padding: 0 16px;
+}
+
+/* Search box hover effect */
+.search-box-wrapper:hover {
+    box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+    border-color: transparent;
+}
+
+/* Search box focus effect */
+.search-box-wrapper:focus-within {
+    box-shadow: 0 2px 5px 1px rgba(64, 60, 67, 0.16);
+    border-color: transparent;
+}
+
+/* Search icon (magnifying glass) */
+.search-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+}
+
+.search-icon svg {
+    width: 20px;
+    height: 20px;
+    fill: #9aa0a6;
+}
+
+/* Main search input field */
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #3c4043;
+    background: transparent;
+    height: 100%;
+    padding: 0;
+}
+
+/* Voice and camera search icons */
+.voice-search,
+.camera-search {
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.voice-icon,
+.camera-icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Hover effect for voice and camera icons */
+.voice-search:hover,
+.camera-search:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+    border-radius: 50%;
+    padding: 8px;
+    margin: -8px;
+}
+
+/* Search buttons container */
+.button-container {
+    margin-top: 35px;
+}
+
+/* Google Search and I'm Feeling Lucky buttons */
+.search-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 20px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.search-btn:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+/* Button focus effect */
+.search-btn:focus {
+    border: 1px solid #4285f4;
+    outline: none;
+}
+
+/* Language options section */
+.language-container {
+    margin-top: 30px;
+}
+
+.language-text {
+    font-size: 13px;
+    color: #3c4043;
+    margin: 0;
+}
+
+/* Language links (Hindi, Bengali, etc.) */
+.language-link {
+    color: #1a0dab;
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 13px;
+}
+
+.language-link:hover {
+    color: #1a0dab;
+    text-decoration: underline;
+}
+
+/* Bottom footer section */
+.footer {
+    background-color: #f2f2f2;
+    margin-top: auto;
+    border-top: 1px solid #dadce0;
+}
+
+/* Country name in footer */
+.footer-country {
+    color: #70757a;
+    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer-country p {
+    margin: 0;
+}
+
+/* Line divider in footer */
+.footer-divider {
+    margin: 0;
+    border: none;
+    border-top: 1px solid #dadce0;
+}
+
+/* Footer links container */
+.footer-links {
+    padding: 0;
+}
+
+.footer-left,
+.footer-right {
+    padding: 15px;
+}
+
+/* Footer links (About, Privacy, etc.) */
+.footer-link {
+    color: #70757a;
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.footer-link:hover {
+    color: #70757a;
+    text-decoration: underline;
+}
+
+/* Mobile and tablet responsive design */
+@media (max-width: 768px) {
+    .google-logo {
+        font-size: 75px;
+        letter-spacing: -0.04em;
+    }
+
+    .search-container {
+        margin: 0 20px;
+    }
+
+    .main-content {
+        padding-top: 40px;
+        min-height: calc(100vh - 120px);
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+    }
+
+    .sign-in-btn {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    .footer-left,
+    .footer-right {
+        padding: 10px 15px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-right {
+        align-items: flex-start;
+    }
+
+    .footer-link {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .language-container {
+        margin: 20px;
+    }
+
+    .button-container {
+        margin-top: 25px;
+    }
+}
+
+/* Small phone responsive design */
+@media (max-width: 480px) {
+    .google-logo {
+        font-size: 60px;
+        letter-spacing: -0.03em;
+    }
+
+    .search-box-wrapper {
+        height: 40px;
+        padding: 0 12px;
+    }
+
+    .search-btn {
+        font-size: 13px;
+        padding: 0 16px;
+        height: 34px;
+        margin: 8px 2px;
+    }
+
+    .apps-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .sign-in-btn {
+        display: none;
+    }
+}
