@@ -5,7 +5,7 @@ A beginner-friendly recreation of Google's homepage using HTML, CSS, JavaScript,
 
 ## 🚀 Live Demo
 
-[View Live Google Homepage](https://googlle-homepage-shibam.netlify.app)
+[View Live Google Homepage](https://goog-homepage-shibam.netlify.app)
 
 
 ## 📁 Project Structure
