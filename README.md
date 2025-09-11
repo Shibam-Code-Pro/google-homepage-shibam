@@ -15,6 +15,10 @@ A beginner-friendly recreation of Google's homepage using HTML, CSS, JavaScript,
   <p><em>Pixel-perfect recreation of Google's homepage with authentic design and functionality</em></p>
 </div>
 
+## 🚀 Live Demo
+
+[View Live Google Homepage Clone](https://goog-homepage-shibam.netlify.app/)
+
 ## 📁 Project Structure
 
 ```
