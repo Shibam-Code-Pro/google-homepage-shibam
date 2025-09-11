@@ -1,18 +1,44 @@
-# Google Homepage Clone
+# 🔍 Google Homepage Clone
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Google](https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
 A beginner-friendly recreation of Google's homepage using HTML, CSS, JavaScript, and Bootstrap.
+
+## 📸 Screenshots
+
+<div align="center">
+  <img src="screenshot/google-homepage-shibam.png" alt="Google Homepage Clone Screenshot" width="800">
+  <p><em>Pixel-perfect recreation of Google's homepage with authentic design and functionality</em></p>
+</div>
 
 ## 📁 Project Structure
 
 ```
 google-homepage-shibam/
-├── index.html          # Main HTML file with page structure
-├── styles.css          # Custom CSS styling for Google look
-├── script.js           # JavaScript for search functionality
-├── README.md           # Project documentation (this file)
-├── LICENSE             # MIT License
-└── .gitignore          # Git ignore file
+├── 📄 index.html          # Main HTML file with page structure
+├── 🎨 styles.css          # Custom CSS styling for Google look
+├── ⚡ script.js           # JavaScript for search functionality
+├── 📸 screenshot/         # Project screenshots
+│   └── google-homepage-shibam.png
+├── 📖 README.md           # Project documentation (this file)
+├── 📜 LICENSE             # MIT License
+└── 🚫 .gitignore          # Git ignore file
 ```
+
+## 🛠️ Technologies Used
+
+<table>
+<tr>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40" height="40"/><br><b>HTML5</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="40" height="40"/><br><b>CSS3</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40" height="40"/><br><b>JavaScript</b></td>
+<td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" width="40" height="40"/><br><b>Bootstrap</b></td>
+</tr>
+</table>
 
 ## 📝 Commit History
 
