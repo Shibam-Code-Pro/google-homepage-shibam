@@ -17,7 +17,7 @@ A beginner-friendly recreation of Google's homepage using HTML, CSS, JavaScript,
 
 ## 🚀 Live Demo
 
-[View Live Google Homepage](https://google-homepage-shibam.vercel.app)
+[View Google Homepage](https://google-homepage-shibam.vercel.app)
 
 ## 📁 Project Structure
 
